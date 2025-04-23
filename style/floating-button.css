@@ -5,7 +5,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  display: none; /* Oculto para desktops*/
+  display: none; /* Ocultar em desktops*/
 }
 
 .main-button {
