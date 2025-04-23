@@ -1,0 +1,88 @@
+/* Estilo do Floating Button */
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: none; /* Oculto para desktops*/
+}
+
+.main-button {
+  width: 60px;
+  height: 60px;
+  background-color: #df092e;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.5s ease; /* Transição suave apenas para a cor */
+  position: relative; /* Garantir que o botão principal não seja afetado por animações externas */
+}
+
+.main-button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease; /* Transição separada para o hover */
+}
+
+.main-button span {
+  display: inline-block;
+  transition: transform 0.5s ease; /* Transição suave para rotação */
+}
+
+.main-button.active span {
+  transform: rotate(360deg); /* Rotação de 360 graus ao mudar para "×" */
+}
+
+/* Estado pressionado (sub-botões abertos) */
+.floating-button.pressed .main-button {
+  background-color: #555; /* Cor cinza escura para indicar "pressionado" */
+}
+
+/* Estilo dos Sub-botões */
+.sub-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Centralizar exatamente no meio do main-button */
+  display: none;
+  z-index: 999;
+}
+
+.sub-buttons.active {
+  display: block;
+}
+
+.sub-button {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid #fbfbfb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translate(0, 0) scale(0.5); /* Estado inicial: no centro do botão principal, pequeno e invisível */
+}
+
+/* Estilo dos SVGs */
+.sub-button img {
+  width: 50px;
+  height: 50px;
+}
+
+.sub-button:hover {
+  transform: scale(1.1);
+}

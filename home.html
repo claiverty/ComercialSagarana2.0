@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comercial Sagarana</title>
-    <link rel="stylesheet" href="style/media.css" />
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/botaoflutuante.css" />
-    <link rel="stylesheet" href="script/index.js" />
+    <link rel="stylesheet" href="style/media.css" />
   </head>
   <body>
     <header>
@@ -52,6 +51,33 @@
         <img src="./images/logoSagarana.png" alt="Logo Sagarana" />
       </section>
     </main>
+
+    <!-- Floating Button, apenas mobile -->
+    <div class="floating-button">
+      <div class="sub-buttons">
+        <a href="https://wa.me/123456789" target="_blank" class="sub-button">
+          <img src="./images/WhatsApp.svg" alt="Ícone do WhatsApp" />
+        </a>
+        <a href="https://instagram.com" target="_blank" class="sub-button">
+          <img src="./images/Instagram.svg" alt="Ícone do Instagram" />
+        </a>
+        <a
+          href="https://maps.app.goo.gl/placeholder"
+          target="_blank"
+          class="sub-button"
+        >
+          <img src="./images/Location.svg" alt="Ícone de Localização" />
+        </a>
+        <a href="tel:+55123456789" target="_blank" class="sub-button">
+          <img src="./images/Phone.svg" alt="Ícone de Telefone" />
+        </a>
+      </div>
+      <button class="main-button" aria-label="Abrir opções de contato">
+        +
+      </button>
+    </div>
+    <!-- ====================================================================== -->
+
     <aside class="localizacao" id="localizacao">
       <div class="endereco">
         <h1>Confira nossa localização</h1>
@@ -72,5 +98,6 @@
         ></iframe>
       </span>
     </aside>
+    <script src="./script/index.js"></script>
   </body>
 </html>
