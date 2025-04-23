@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+body {
+  font-family: Poppins, "Helvetica Neue", Helvetica, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  background-color: #df092e;
+}
+
+header {
+  background-color: #fbfbfb;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header .navbar a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #df092e;
+  font-weight: 700;
+}
+
+header .navbar a:hover {
+  color: #000000;
+  transition: 0.2s all;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.3rem;
+}
+
+.container .bem-vindo {
+  background-color: #fbfbfb;
+  padding: 2rem;
+  border-radius: 13px;
+  max-width: 625px;
+}
+
+.container .bem-vindo h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+}
+
+.container .bem-vindo h1 span {
+  color: #df092e;
+  font-weight: 700;
+}
+
+.container .contatos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.container .contatos .contato {
+  width: 326px;
+  height: 60px;
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  border: #c0b7b7 solid 1px;
+  border-radius: 20px;
+  padding: 8px 12px;
+  transition: background 0.2s;
+}
+
+.container .contato:hover {
+  background: #f0f0f0;
+}
+
+.container .contatos .contato img {
+  width: 45px;
+  height: 45px;
+}
+
+.container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container .logo img {
+  max-width: 500px;
+  max-height: auto;
+}
+
+.localizacao {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.localizacao .endereco h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fbfbfb;
+}
+
+.localizacao .endereco p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fbfbfb;
+  max-width: 500px;
+}
+
+.localizacao #mapa {
+  border-radius: 50%;
+  -webkit-border-radius: 15px;
+  overflow: hidden;
+}
