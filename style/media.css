@@ -1,4 +1,181 @@
-@media (max-width: 420px) {
+@media (max-width: 1024px) {
+  body {
+    max-width: 769px;
+    padding: 0.2rem 16px;
+    margin: 0 auto;
+  }
+
+  header .navbar a {
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: 769px;
+  }
+
+  .container .bem-vindo {
+    max-width: 100%;
+  }
+
+  .container .bem-vindo h1 {
+    font-size: 33px;
+    margin-bottom: 1rem;
+  }
+
+  .container .contatos .contato {
+    width: 300px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  .container .contatos .contato img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .container .logo {
+    padding: 1rem;
+  }
+
+  .container .logo img {
+    max-width: 100%;
+  }
+
+  .localizacao {
+    padding-bottom: 0.5rem;
+  }
+
+  .localizacao .endereco h1 {
+    font-size: 33px;
+  }
+
+  .localizacao .endereco p {
+    font-size: 22px;
+    max-width: 350px;
+  }
+
+  .localizacao #mapa {
+    max-width: 380px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 80%;
+    min-width: 481px;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  header .navbar a {
+    font-size: 17px;
+  }
+
+  .container {
+    max-width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .container .logo {
+    padding: 0;
+  }
+
+  .container .logo img {
+    max-width: 200px;
+  }
+
+  .container .bem-vindo {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 0.5rem;
+  }
+
+  .container .bem-vindo h1 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .container .bem-vindo h1 br {
+    display: none;
+  }
+
+  .container .contatos {
+    align-items: center;
+  }
+
+  .container .contatos .contato {
+    width: 220px;
+    height: 35px;
+    font-size: 20px;
+  }
+
+  .container .contatos .contato img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .localizacao {
+    padding-bottom: 0.5rem;
+  }
+
+  .localizacao .endereco h1 {
+    font-size: 30px;
+  }
+
+  .localizacao .endereco p {
+    max-width: 270px;
+    font-size: 17px;
+  }
+
+  .localizacao #mapa {
+    width: 60%;
+    height: 250px;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    display: none;
+  }
+  .container {
+    padding-top: 0;
+  }
+  .container .bem-vindo {
+    border-radius: 13px 13px 0 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .container .bem-vindo h1 {
+    font-size: 30px;
+    margin-bottom: 100%;
+  }
+
+  .container .bem-vindo h1 span {
+    font-size: 36px;
+  }
+
+  .container .contatos {
+    display: none;
+  }
+
+  .container .logo img {
+    width: 350px;
+    max-width: 100%;
+  }
+  .localizacao {
+    display: none;
+  }
+
   .floating-button {
     display: block;
   }
