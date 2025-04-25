@@ -138,6 +138,7 @@
 
 @media (max-width: 480px) {
   body {
+    max-width: 100%;
     padding: 0;
     margin: 0;
   }
