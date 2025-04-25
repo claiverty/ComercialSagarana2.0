@@ -141,7 +141,6 @@
   body {
     padding: 0;
     margin: 0;
-    overflow: hidden;
   }
 
   header {
@@ -153,7 +152,6 @@
   }
 
   .container .bem-vindo {
-    max-width: 100%;
     max-height: 100%;
     border-radius: 34px 34px 0 0;
   }
@@ -189,18 +187,15 @@
   body {
     padding: 0;
     margin: 0;
-    overflow: hidden;
   }
 
-  .container .bem-vindo {
-    max-height: 100%;
-  }
   .container .logo img {
     width: 400px;
   }
 
   .container .bem-vindo h1 {
     font-size: 33px;
+    margin-bottom: 100%;
   }
 
   .container .bem-vindo h1 span {
