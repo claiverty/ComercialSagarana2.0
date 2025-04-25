@@ -9,8 +9,8 @@
 }
 
 .main-button {
-  width: 60px;
-  height: 60px;
+  width: 57px;
+  height: 57px;
   background-color: #df092e;
   color: #fff;
   border: none;
@@ -41,7 +41,7 @@
 
 /* Estado pressionado (sub-botões abertos) */
 .floating-button.pressed .main-button {
-  background-color: #555; /* Cor cinza escura para indicar "pressionado" */
+  background-color: #302d2d; /* Cor cinza escura para indicar "pressionado" */
 }
 
 /* Estilo dos Sub-botões */

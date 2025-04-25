@@ -59,10 +59,10 @@ function animateSubButtons(show, callback) {
 
   // Posições finais (definidas anteriormente)
   const positions = [
-    { x: -120, y: -120 }, // WhatsApp
+    { x: -120, y: -120 }, // Telefone
+    { x: -60, y: -120 }, // Whatsapp
     { x: 0, y: -120 }, // Instagram
-    { x: -60, y: -120 }, // Localização
-    { x: 60, y: -120 }, // Telefone
+    { x: 60, y: -120 }, // Localização
   ];
 
   let completedAnimations = 0;

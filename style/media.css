@@ -148,7 +148,6 @@
   }
 
   .container {
-    justify-content: space-between;
     padding: 0.5rem;
   }
 
@@ -162,7 +161,7 @@
   }
 
   .container .bem-vindo h1 span {
-    font-size: 36px;
+    font-size: 35px;
   }
 
   .container .contatos {
