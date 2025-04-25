@@ -141,27 +141,24 @@
   body {
     padding: 0;
     margin: 0;
-    height: 100vh;
-    max-width: 100%;
   }
 
   header {
     display: none;
   }
+
   .container {
-    padding-top: 0;
     justify-content: space-between;
+    padding: 0.5rem;
   }
 
   .container .bem-vindo {
-    max-height: 100%;
-    border-radius: 34px 34px 0 0;
+    border-radius: 34px;
   }
 
   .container .bem-vindo h1 {
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: 30px;
-    margin-bottom: 100%;
   }
 
   .container .bem-vindo h1 span {
@@ -185,7 +182,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 420px) {
   body {
     padding: 0;
     margin: 0;
@@ -197,7 +194,6 @@
 
   .container .bem-vindo h1 {
     font-size: 33px;
-    margin-bottom: 100%;
   }
 
   .container .bem-vindo h1 span {
