@@ -177,7 +177,7 @@
   }
 
   .floating-button {
-    display: block;
+    display: block; /* ativar o floating button */
   }
 }
 
